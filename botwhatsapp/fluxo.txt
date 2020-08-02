@@ -1,0 +1,5 @@
+-- Boas vindas e apresentar as propostas // cardapio etc..
+-- Mandar os codigos dos produtos
+-- mostrar um resumo de todos os produtos pedidos e opção de confirma
+-- solicitar o endereço de entrega
+-- encerrar enviando o produto
