@@ -1,11 +1,11 @@
 const banco = require("../banco");
+
 let estagioInterno = 0;
 
 function execute(user, msg) {
 
   if (estagioInterno === 1) {
     banco.db[user].stage = 4;
-
     return stages.step[4].obj.execute(user, "");
   }
   if (msg === "*") {
@@ -15,7 +15,7 @@ function execute(user, msg) {
   if (msg === "1") {
     estagioInterno++;
     return ["Digite o valor em dinheiro para levarmos o troco: ",
-            console.log("troco para: ",` Total R$ ${banco.total}`)];
+            console.log("troco para: ", msg )]
   }
   if(msg === "2"){
     estagioInterno++;

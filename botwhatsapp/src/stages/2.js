@@ -23,6 +23,7 @@ function execute(user, msg) {
 
   resumo += "-------------------------\n";
   resumo += ` Total R$ ${total}`;
+  console.log(`Total R$ ${total}`)
 
   return [resumo, "Digite # para continuar ou para cancelar digite *"];
 }

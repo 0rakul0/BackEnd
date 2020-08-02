@@ -12,8 +12,9 @@ function execute(user, msg, contato) {
   banco.db[user].stage = 1;
 
   return [
-    `Olá ${contato} sou uma assistente virtual, irei apresentar o carpádio, para fazer o pedido basta enviar o codigo do produto`,
-    menu,console.log(user)
+    `Olá ${contato} sou uma assistente virtual, irei apresentar o carpádio, para fazer o pedido basta enviar o número do pedido`,
+    menu,
+    console.log("numero: ",user,"contato: ",contato)
   ];
   
 }
