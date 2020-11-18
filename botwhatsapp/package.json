@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "venom-bot": "^1.1.4"
+    "venom-bot": "^1.6.0"
   },
   "devDependencies": {},
   "scripts": {
